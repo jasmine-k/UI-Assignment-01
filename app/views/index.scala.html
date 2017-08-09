@@ -5,7 +5,7 @@
     <nav class="navbar navbar-default" style="margin-bottom : 0px">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#"><img src=@routes.Assets.versioned("images/favicon.png")/> </a>
+                <a class="navbar-brand" href="#"><img id="logo" src=@routes.Assets.versioned("images/knoldus-logo.jpg")/> </a>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">HOME</a></li>
@@ -25,14 +25,14 @@
                 <button type="button" class="btn">Read more</button>
 
             </div>
-        </div>
+    </div>
+    </div>
         <!------------------>
-        <div>
             <div class=" textdisplay">
                 <h1><strong>ABOUT</strong></h1>
                 <h3>This is your first session!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h3><br>
             </div>
-            <div class="row">
+    <div class="row container-fluid">
                 <div class="col-md-6 ">
                     <div class="col-md-offset-2">
                         <img src=@routes.Assets.versioned("images/image3.png")/>
@@ -40,12 +40,15 @@
                 </div>
 
                 <div class="col-md-6 ">
-                    <div class=" col-md-9 col-md-offset-2 about">
+                    <div class=" col-md-9 col-md-offset-2 about" >
                         <h2><strong>ABOUT OUR CONSULTING</strong></h2>
                         <div class="row">
                             <div class="col-md-2">
                                 <br>
-                                <img src=@routes.Assets.versioned("images/image6.png")/>
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span>
                             </div>
                             <div class="col-md-10">
 
@@ -58,7 +61,11 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <br>
-                                <img src=@routes.Assets.versioned("images/image6.png")/>
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span>
+
                             </div>
                             <div class="col-md-10">
                                 <h3>Best Business Statistics</h3>
@@ -69,7 +76,10 @@
                         <div class="row">
                             <div class="col-md-2">
                                 <br>
-                                <img src=@routes.Assets.versioned("images/image6.png")/>
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span>
                             </div>
                             <div class="col-md-10">
                                 <h3>24/7 Online Support</h3>
@@ -77,92 +87,156 @@
                                     support........................................................</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!------------------>
+
+
+<!------------------>
 
     <div class="textdisplay">
         <h1><strong>SERVICES</strong></h1>
         <h3>Introduction about services!!!!!!!!!!!!!!!!!<br>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h3><br>
     </div>
 
-    <div class="service">
-        <div class="col-md-6 ">
+    <div class="row service container-fluid">
+        <div class="col-md-6 service-left">
             <div class="row">
                 <div class="col-md-5  col-md-offset-2">
 
-                    <img src=@routes.Assets.versioned("images/image6.png")/>
+                    <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
                     <h4>FINANCIAL PLANNING</h4>
                     <p>Test about financial planning</p>
-                    <img src=@routes.Assets.versioned("images/image6.png")>
+                    <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
                     <h4>WORK AND REDUNDANCY</h4>
                     <p>Test about work and redundancy</p>
-                    <img src=@routes.Assets.versioned("images/image6.png")>
+                    <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
                     <h4>RETIREMENT PLANNING</h4>
                     <p>Test about retirement planning</p>
                 </div>
 
 
                 <div class="col-md-5 ">
-                    <img src=@routes.Assets.versioned("images/image6.png")/>
+                    <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
                     <h4>BUSINESS PLANNING</h4>
                     <p>Test about business planning</p>
-                    <img src=@routes.Assets.versioned("images/image6.png")>
+                    <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
                     <h4>MORTGAGE ADVISOR</h4>
                     <p>Test about mortgage advisor</p>
-                    <img src=@routes.Assets.versioned("images/image6.png")>
+                    <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
                     <h4>SAVING AND INVESTING</h4>
                     <p>Test about saving and investing</p>
                 </div>
             </div>
         </div>
         <div class="col-md-6 services-right">
-            <div class="col-md-3">
-                <div class="services-right-inner">
-                    <h2>Our Services</h2>
-                    <p>Text about services. sdakjaisdhiwudh kjdidj wididiwhd kiwjdhiwhdiwuh
-                        kjdshsfkkjh kldlfjehefk efkhkjsdhf ..... . . ........ ...........
-                        ........... .............. ............. ........ ........... </p>
-                    <button type="button" class="btn">learn more</button>
-                </div>
+            <div class="services-right-inner">
+                <h2>Our Services</h2>
+                <p>Text about services. sdakjaisdhiwudh kjdidj wididiwhd kiwjdhiwhdiwuh
+                kjdshsfkkjh kldlfjehefk efkhkjsdhf ..... . ....... ........... .......
+                ........... .......... ........... ............. ........... ..........</p>
+                <button type="button" class="btn">learn more</button>
             </div>
         </div>
     </div>
 
-    <div class="consult">
+    <div class="consult container-fluid">
         <div class="col-md-8">
-            <h3>Need to <a href="#">Consult with us </a>?Book an appointment</h3>
-            <p>The brandy brunch.....</p>
+
+        <h3>Need to <a href="#">Consult with us </a>?Book an appointment</h3>
+        <p>The brandy brunch.....</p>
         </div>
         <div class="col-mod-4">
-            <button type="button" class="btn">Book Now</button>
+            <br><button type="button" class="btn">Book Now</button>
 
         </div>
     </div>
 
-    <div class="portfolio">
-        <h1><strong>PORTFOLIO</strong></h1>
-        <p>text about portfolio......</p>
+<div class="textdisplay">
+    <h1><strong>PORTFOLIO</strong></h1>
+    <p>text about portfolio......</p>
+</div>
+<div class="portfolio container-fluid">
+    <div class="row">
+    <div class="col-md-3">
+        <img src=@routes.Assets.versioned("images/image4.png")/>
 
-        <br>
-        <div class="">
-            <div class="col-mod-4">
-            </div>
-            <div class="col-mod-4">
-            </div>
-            <div class="col-mod-4">
-            </div>
-            <div class="col-mod-4">
-            </div>
+    </div>
+    <div class="col-md-3">
+        <img src=@routes.Assets.versioned("images/image4.png")/>
+
+    </div>
+    <div class="col-md-3">
+        <img src=@routes.Assets.versioned("images/image4.png")/>
+
+    </div>
+    <div class="col-md-3">
+        <img src=@routes.Assets.versioned("images/image4.png")/>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <img src=@routes.Assets.versioned("images/image4.png")/>
+
         </div>
+        <div class="col-md-3">
+            <img src=@routes.Assets.versioned("images/image4.png")/>
 
+        </div>
+        <div class="col-md-3">
+            <img src=@routes.Assets.versioned("images/image4.png")/>
+
+        </div>
+        <div class="col-md-3">
+            <img src=@routes.Assets.versioned("images/image4.png")/>
+        </div>
     </div>
 </div>
+    <div class="textdisplay">
+        <h1><strong>GET IN TOUCH</strong></h1>
+        <p>text about get in touch......</p>
+    </div>
+    <div class="container-fluid">
+        <form>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject">
+            </div>
+            <button type="submit" class="btn btn-default">Send Now</button>
+        </form>
+
+    </div>
+
+</div>
+
+
 
 
 }

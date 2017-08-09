@@ -10,7 +10,6 @@ width: 100%;
 background-size: cover;
 }
 
-
 .textdisplay{
 
 text-align: center;
@@ -24,6 +23,7 @@ text-align:left
 text-align: right;
 background-color: Black;
 color: White;
+height: 318px;
 }
 
 .btn{
@@ -33,6 +33,22 @@ color: White;
 
 .consult{
 text-align: left;
-background-color:;
+background-color: Black;
 
+}
+
+.service-left{
+background-color:Grey
+}
+
+.container-fluid{
+margin-left: 0px;
+margin-right: 0px;
+background-size: cover;
+width: 100%;
+}
+
+#logo{
+height:30px;
+width:50px;
 }
