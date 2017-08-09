@@ -1,0 +1,38 @@
+.navbar{
+margin-bottom : 0px;
+height
+}
+
+#main-img{
+background: url("../images/main-img.png") no-repeat;
+height: 300px;
+width: 100%;
+background-size: cover;
+}
+
+
+.textdisplay{
+
+text-align: center;
+}
+
+.inner-text{
+text-align:left
+}
+
+.services-right{
+text-align: right;
+background-color: Black;
+color: White;
+}
+
+.btn{
+background-color: Blue;
+color: White;
+}
+
+.consult{
+text-align: left;
+background-color:;
+
+}
