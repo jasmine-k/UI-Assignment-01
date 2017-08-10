@@ -3,6 +3,12 @@ margin-bottom : 0px;
 height
 }
 
+.top-div{
+margin-left : 0px;
+
+}
+
+
 #main-img{
 background: url("../images/main-img.png") no-repeat;
 height: 300px;
@@ -24,6 +30,7 @@ text-align: right;
 background-color: Black;
 color: White;
 height: 318px;
+
 }
 
 .btn{
@@ -51,4 +58,14 @@ width: 100%;
 #logo{
 height:30px;
 width:50px;
+}
+
+.btn-book-now{
+height: 40px;
+width: 150px;
+}
+
+#send-now{
+background-color: Blue;
+color: White;
 }
