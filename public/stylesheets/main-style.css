@@ -53,6 +53,7 @@ margin-left: 0px;
 margin-right: 0px;
 background-size: cover;
 width: 100%;
+padding: 0px;
 }
 
 #logo{
@@ -68,4 +69,12 @@ width: 150px;
 #send-now{
 background-color: Blue;
 color: White;
+}
+
+.img{
+width:100%;
+}
+
+.img-outer{
+padding: 0px;
 }
